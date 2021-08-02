@@ -9,6 +9,15 @@
 
         else if (resultado == "") {
             alert("No ingresaste ningún resultado 😱")
+            let reintento = prompt("Intentalo de nuevo --> 5x + 9 = 24 <-- ¿Cuál es el valor de x?")
+            if (reintento == "3") {
+                alert("Ahora si! Respuesta correcta 🤓");
+                document.write("Eres un genio matemático");
+            }
+            else {
+                alert("Lo siento, has fallado de nuevo 😭")
+                document.write("La próxima sale!")
+            }
         }
 
         else {
